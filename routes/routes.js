@@ -5,7 +5,7 @@ const Ingredient = require("../models/ingredient");
 
 router.get("/", (req, res) => {
   res.header("Access-Control-Allow-Origin", "*");
-  res.send("Hi!");
+  res.send("Qué cocino - API");
 });
 
 router.get("/recipes/random", (req, res) => {
